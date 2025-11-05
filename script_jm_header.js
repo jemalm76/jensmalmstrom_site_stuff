@@ -364,14 +364,3 @@ if (window.visualViewport) {
 
 // Första render
 render();
-
-// Infogar zenler-menyn
-
-// document.addEventListener("DOMContentLoaded", function() {
-//   fetch("https://cdn.jsdelivr.net/gh/jemalm76/jensmalmstrom_site_stuff/script_jm_navbar.html")
-//     .then(response => response.text())
-//     .then(html => {
-//       document.body.insertAdjacentHTML("afterbegin", html);
-//     })
-//     .catch(err => console.error("Kunde inte ladda HTML:", err));
-// });
